@@ -8,7 +8,12 @@
 </head>
 <body>
 hello.jsp 페이지
-<form action="/file" method="POST" enctype="multipart/form-data">
+<form action="file" method="POST" enctype="multipart/form-data">
+업로드할 파일 : <input type="file"  name="file"/>
+<button>전송</button>
+</form>
+
+<form action="/inputStream" method="POST" >
 업로드할 파일 : <input type="file" name="file" id="file"/>
 <button>전송</button>
 </form>
