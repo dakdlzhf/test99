@@ -64,7 +64,7 @@ public class HelloController {
       String fileName = filePart.getSubmittedFileName();// 파일 이름 추출
       String filePath = realPath + File.separator + fileName;
 
-      //String imageFileName = file.getOriginalFilename();
+      //String imageFileName = file.getOriginalFilename(); // 갖고온 파일 의이름 출
        
       if(Arrays.asList(check).contains(filePart.getContentType())) {
           
